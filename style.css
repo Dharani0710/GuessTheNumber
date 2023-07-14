@@ -1,0 +1,82 @@
+
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    background-color: aqua;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+
+}
+.logo{
+    font-size: 5em;
+    text-shadow: -5px -5px white,
+    5px -5px white,
+    -5px 5px white,
+    5px 5px white;
+}
+#start{
+    background-color: chartreuse;
+    color: magenta;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+    font-weight: 800;  
+}
+.button{
+    background-color: chartreuse;
+    color: magenta;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+    font-weight: 800;    
+}
+
+#start:hover{
+    background-color: black;
+    color: aquamarine;
+
+}
+
+input{
+    width: 150px;
+    text-align: center;
+    font-size: 2em;
+    height: 2em;
+}
+#input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#submit{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+#message{
+    display: none;
+    font-size: 2em;
+    color: blue;
+    text-align: center;
+
+}
